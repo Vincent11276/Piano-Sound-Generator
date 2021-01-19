@@ -38,5 +38,3 @@ class Panel(wx.Panel):
 
 if __name__ == "__main__":
     App().MainLoop()
-
-    piano = PianoPlayer()
