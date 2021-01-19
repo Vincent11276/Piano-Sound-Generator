@@ -12,7 +12,7 @@ class PianoPlayer:
         self.max_value = 72
 
         self.sounds = []
-        for i in range(60, 73):
+        for i in range(self.min_value, self.max_value + 1):
             self.sounds.append(pygame.mixer.Sound(f'{sound_pack_path}/Piano {i}.mp3'))
 
     def PlayNote(self, value):
